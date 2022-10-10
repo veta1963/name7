@@ -1,0 +1,283 @@
+@media (min-width: 640px) and (max-width: 1199px) {
+    .main {
+        display: flex;       
+    } 
+    .hamburger {       
+     top: -17.5vw;
+     left: 90%;
+     margin: auto;
+    }
+
+    .hamburger, 
+    .hamburger::before, 
+    .hamburger::after {
+      width: 3vw;
+      height: 0.35vw;
+    }
+
+    .hamburger::before{
+      top: 1vw;
+    }
+
+    .hamburger::after {
+      top: 2vw;
+    }
+    .popup {
+      top: 0;
+      right: 0;
+      margin-top: 23vh;
+      margin-left: 25vw;
+      margin-right: 25vw;
+      
+      width: 45vw;
+      height: 60rem;
+    }
+    .x {           
+      margin-top: -32px
+    }
+    #title-hidden {
+      font-size: 1.6rem;
+    }
+    .header-general {
+      width: 100vw;
+      height: 52vw; 
+    }
+
+    .header { 
+      display: flex;
+                      
+      background: url("../images/banner-bg-tablet.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    
+    .logo-header {
+      position: relative;  
+      left: 0;
+      width: 20vw;
+      margin: 5vw 0 0 0;
+    }     
+    
+    .header-logo-title {            
+        margin: 0 2.5%;
+    }      
+
+    .header-menu-title {
+      display: flex;           
+    }
+   
+    .menu-list {
+       display: flex;        
+    }
+
+    .header-title { 
+      width: 80%;               
+        margin-top: 10vw;
+        z-index: 1;
+        font-size: 5vw;        
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;   
+    }
+    .card {
+      width: 49.6%; 
+      height: 245px;     
+    }
+    .card:nth-child(2n+1) {
+      margin-right: 0.8%;
+    }
+    .card-body {
+      width: 90%;
+      padding: 3.5rem 3rem;
+      margin: 2vw;      
+    }
+    .title {
+      margin: 35px 0 35px;          
+      font-size: 1.8rem;    
+    }
+    .card-titles {
+      width: auto;
+      margin: 0;
+      font-size: 1.4rem;
+    }
+    .card-subtitle {
+      font-size: 1.7rem;
+    }
+    .now {
+      font-size: 1.8rem;
+    }
+    .main-news {       
+      margin: 7vw  4vw 0; 
+    }
+    .section-news { 
+        width: 49vw;
+        margin-top: 0;
+      }
+      .section-news:not(:first-child) {
+        margin-top: 3vw;
+      } 
+      .pic-news {
+        width: 49vw;
+        height: 38vw;
+      }
+
+      .pic-news-wrapper {
+        width: 49vw;
+        height: 38vw;
+      }
+
+      .section-news-content {
+        margin-top: 1vw;
+      }
+      .data-author-news {
+        margin-bottom: 4vw;
+      }
+      .strip {
+        width: 49vw;
+       
+        margin: 5vw 0 0 0 ;       
+      }     
+
+      .aside {
+        width: 35vw;
+        margin: 0;        
+      }
+      .section-title {
+        width: 35vw;        
+      }
+    
+      .form-find {      
+        width: 35vw; 
+        margin-top: 8vw;
+      }
+
+      .field {
+        width: 30vw;
+      }
+
+      .button-find {
+        width: 7vw;
+      }
+      .form-email {
+        width: 35vw;
+        margin: 0;
+        padding: 2vw 0;
+      }
+      .field-email {
+        width: 37vw;
+        margin-bottom: 2vw;
+      }
+      
+      .button-email {
+        width: 37vw;
+        margin: 0;
+      }
+
+      .topic-point::before {        
+        width: 35vw;
+      }
+      
+      .products {
+        display: flex;
+        flex-wrap: wrap;
+        width: 89%;
+        margin: auto;
+        margin-left: 2rem;
+                       
+      }
+      
+    .product-card {
+      display: flex;
+      flex-direction: column; 
+      
+      margin: 0;
+      width: 50%;  
+    }
+           
+      .product-body {  
+        height: 53%;            
+        width: 333px;
+        margin: -35px 10px 0;
+        padding: 40px 20px 30px;  
+      }
+      .text {
+        margin-top: 0;
+        padding: 0;
+        font-size: 1.5rem;
+      }
+      
+      .product {
+        width: calc(100% - 62px);
+        height: 28vw;
+        margin: 0 auto;  
+      }
+      .product-order {
+        margin: 2.5rem 0 4rem;
+      }
+      .cushion {
+        background: url("../images/shop-item-tablet1.jpg");
+      }
+
+      .puppet {
+        background: url("../images/shop-item-tablet2.jpg");
+      }
+
+      .border {
+        background: url("../images/shop-item-tablet3.jpg");
+      }
+      .cushion, .puppet, .border {
+      background-color: #666666;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    .section-tags {
+      margin: 5vw 0;
+    }
+     .caption {       
+      font-size: 1.4rem;
+     }
+     .tags {
+      margin-top: 5vw;
+     }
+     .tag-list {
+      height: 4vw;
+     }
+     .tag {
+      padding: 0 2vw;
+      font-size: 1.2rem;
+     }
+     .topics {
+      margin: 2vw 0;
+     }
+     .topic {
+      margin-bottom: 3vw;
+     }
+      .subtitle-card {
+        margin-bottom: 1vw;
+        font-size: 1.7rem;
+      }
+      .button {
+        width: 18vw;
+      }
+      .footer {
+        margin: 4vw 0;
+      }
+      .footer-address {  
+        height: 8rem;
+      }
+      .social-network-icon {
+        width: 2rem;
+        height: 2rem;
+      }
+      .footer-copyright {
+        margin: 0;
+        padding: 2vw;
+      }
+      .copyright {
+        margin-bottom: 5%;
+        font-size: 1.2rem;
+      }
+}
